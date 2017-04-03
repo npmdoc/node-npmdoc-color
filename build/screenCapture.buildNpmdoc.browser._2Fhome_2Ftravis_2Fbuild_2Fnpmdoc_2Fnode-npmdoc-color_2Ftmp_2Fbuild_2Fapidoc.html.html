@@ -1,0 +1,476 @@
+<html><head></head><body><div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a href="https://github.com/qix-/color#readme">color (v1.0.3)</a>
+</h1>
+<h4>Color conversion and manipulation with CSS string support</h4>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.color">module color</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.color.ansi16">
+            function <span class="apidocSignatureSpan">color.</span>ansi16
+            <span class="apidocSignatureSpan">(color)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.color.ansi256">
+            function <span class="apidocSignatureSpan">color.</span>ansi256
+            <span class="apidocSignatureSpan">(color)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.color.apple">
+            function <span class="apidocSignatureSpan">color.</span>apple
+            <span class="apidocSignatureSpan">(color)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.color.cmyk">
+            function <span class="apidocSignatureSpan">color.</span>cmyk
+            <span class="apidocSignatureSpan">(color)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.color.hcg">
+            function <span class="apidocSignatureSpan">color.</span>hcg
+            <span class="apidocSignatureSpan">(color)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.color.hsl">
+            function <span class="apidocSignatureSpan">color.</span>hsl
+            <span class="apidocSignatureSpan">(color)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.color.hsv">
+            function <span class="apidocSignatureSpan">color.</span>hsv
+            <span class="apidocSignatureSpan">(color)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.color.hwb">
+            function <span class="apidocSignatureSpan">color.</span>hwb
+            <span class="apidocSignatureSpan">(color)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.color.lab">
+            function <span class="apidocSignatureSpan">color.</span>lab
+            <span class="apidocSignatureSpan">(color)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.color.lch">
+            function <span class="apidocSignatureSpan">color.</span>lch
+            <span class="apidocSignatureSpan">(color)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.color.rgb">
+            function <span class="apidocSignatureSpan">color.</span>rgb
+            <span class="apidocSignatureSpan">(color)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.color.xyz">
+            function <span class="apidocSignatureSpan">color.</span>xyz
+            <span class="apidocSignatureSpan">(color)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.color" id="apidoc.module.color">module color</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.color.ansi16" id="apidoc.element.color.ansi16">
+        function <span class="apidocSignatureSpan">color.</span>ansi16
+        <span class="apidocSignatureSpan">(color)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ansi16 = function (color) {
+		if (typeof color === 'number') {
+			color = zeroArray(_slice.call(arguments), channels);
+		}
+		return new Color(color, model);
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.color.ansi256" id="apidoc.element.color.ansi256">
+        function <span class="apidocSignatureSpan">color.</span>ansi256
+        <span class="apidocSignatureSpan">(color)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ansi256 = function (color) {
+		if (typeof color === 'number') {
+			color = zeroArray(_slice.call(arguments), channels);
+		}
+		return new Color(color, model);
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+```js
+var color = Color('#7743CE').alpha(0.5).lighten(0.5);
+console.log(color.hsl().string());  // 'hsla(262, 59%, 81%, 0.5)'
+
+console.log(color.cmyk().round().array());  // [ 16, 25, 0, 8, 0.5 ]
+
+console.log(color.<span class="apidocCodeKeywordSpan">ansi256</span>().object());  // { ansi256: 183, alpha: 0.5 }
+```
+
+## Install
+```console
+$ npm install color
+```
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.color.apple" id="apidoc.element.color.apple">
+        function <span class="apidocSignatureSpan">color.</span>apple
+        <span class="apidocSignatureSpan">(color)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">apple = function (color) {
+		if (typeof color === 'number') {
+			color = zeroArray(_slice.call(arguments), channels);
+		}
+		return new Color(color, model);
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.color.cmyk" id="apidoc.element.color.cmyk">
+        function <span class="apidocSignatureSpan">color.</span>cmyk
+        <span class="apidocSignatureSpan">(color)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">cmyk = function (color) {
+		if (typeof color === 'number') {
+			color = zeroArray(_slice.call(arguments), channels);
+		}
+		return new Color(color, model);
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+&gt; JavaScript library for immutable color conversion and manipulation with support for CSS color strings.
+
+```js
+var color = Color('#7743CE').alpha(0.5).lighten(0.5);
+console.log(color.hsl().string());  // 'hsla(262, 59%, 81%, 0.5)'
+
+console.log(color.<span class="apidocCodeKeywordSpan">cmyk</span>().round().array());  // [ 16, 25, 0, 8, 0.5 ]
+
+console.log(color.ansi256().object());  // { ansi256: 183, alpha: 0.5 }
+```
+
+## Install
+```console
+$ npm install color
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.color.hcg" id="apidoc.element.color.hcg">
+        function <span class="apidocSignatureSpan">color.</span>hcg
+        <span class="apidocSignatureSpan">(color)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">hcg = function (color) {
+		if (typeof color === 'number') {
+			color = zeroArray(_slice.call(arguments), channels);
+		}
+		return new Color(color, model);
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.color.hsl" id="apidoc.element.color.hsl">
+        function <span class="apidocSignatureSpan">color.</span>hsl
+        <span class="apidocSignatureSpan">(color)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">hsl = function (color) {
+		if (typeof color === 'number') {
+			color = zeroArray(_slice.call(arguments), channels);
+		}
+		return new Color(color, model);
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+# color [![Build Status](https://travis-ci.org/Qix-/color.svg?branch=master)](https://travis-ci.org/Qix-/color)
+
+&gt; JavaScript library for immutable color conversion and manipulation with support for CSS color strings.
+
+```js
+var color = Color('#7743CE').alpha(0.5).lighten(0.5);
+console.log(color.<span class="apidocCodeKeywordSpan">hsl</span>().string());  // 'hsla(262, 59%, 81%, 0.5)'
+
+console.log(color.cmyk().round().array());  // [ 16, 25, 0, 8, 0.5 ]
+
+console.log(color.ansi256().object());  // { ansi256: 183, alpha: 0.5 }
+```
+
+## Install
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.color.hsv" id="apidoc.element.color.hsv">
+        function <span class="apidocSignatureSpan">color.</span>hsv
+        <span class="apidocSignatureSpan">(color)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">hsv = function (color) {
+		if (typeof color === 'number') {
+			color = zeroArray(_slice.call(arguments), channels);
+		}
+		return new Color(color, model);
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.color.hwb" id="apidoc.element.color.hwb">
+        function <span class="apidocSignatureSpan">color.</span>hwb
+        <span class="apidocSignatureSpan">(color)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">hwb = function (color) {
+		if (typeof color === 'number') {
+			color = zeroArray(_slice.call(arguments), channels);
+		}
+		return new Color(color, model);
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+	desaturate: function (ratio) {
+		var hsl = this.hsl();
+		hsl.color[1] -= hsl.color[1] * ratio;
+		return hsl;
+	},
+
+	whiten: function (ratio) {
+		var hwb = this.<span class="apidocCodeKeywordSpan">hwb</span>();
+		hwb.color[1] += hwb.color[1] * ratio;
+		return hwb;
+	},
+
+	blacken: function (ratio) {
+		var hwb = this.hwb();
+		hwb.color[2] += hwb.color[2] * ratio;
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.color.lab" id="apidoc.element.color.lab">
+        function <span class="apidocSignatureSpan">color.</span>lab
+        <span class="apidocSignatureSpan">(color)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">lab = function (color) {
+		if (typeof color === 'number') {
+			color = zeroArray(_slice.call(arguments), channels);
+		}
+		return new Color(color, model);
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.color.lch" id="apidoc.element.color.lch">
+        function <span class="apidocSignatureSpan">color.</span>lch
+        <span class="apidocSignatureSpan">(color)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">lch = function (color) {
+		if (typeof color === 'number') {
+			color = zeroArray(_slice.call(arguments), channels);
+		}
+		return new Color(color, model);
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.color.rgb" id="apidoc.element.color.rgb">
+        function <span class="apidocSignatureSpan">color.</span>rgb
+        <span class="apidocSignatureSpan">(color)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">rgb = function (color) {
+		if (typeof color === 'number') {
+			color = zeroArray(_slice.call(arguments), channels);
+		}
+		return new Color(color, model);
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+var Color = require('color');
+```
+
+### Constructors
+```js
+var color = Color('rgb(255, 255, 255)')
+var color = Color({r: 255, g: 255, b: 255})
+var color = Color.<span class="apidocCodeKeywordSpan">rgb</span>(255, 255, 255)
+var color = Color.rgb([255, 255, 255])
+```
+
+Set the values for individual channels with `alpha`, `red`, `green`, `blue`, `hue`, `saturation` (hsl), `saturationv` (hsv), `lightness
+`, `whiteness`, `blackness`, `cyan`, `magenta`, `yellow`, `black`
+
+### Getters
+```js
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.color.xyz" id="apidoc.element.color.xyz">
+        function <span class="apidocSignatureSpan">color.</span>xyz
+        <span class="apidocSignatureSpan">(color)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">xyz = function (color) {
+		if (typeof color === 'number') {
+			color = zeroArray(_slice.call(arguments), channels);
+		}
+		return new Color(color, model);
+	}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
+</body></html>
