@@ -1,7 +1,7 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
     "buildNpmdoc": "color",
-    "description": "api documentation for [color (v1.0.3)](https://github.com/qix-/color#readme) [![npm package](https://img.shields.io/npm/v/npmdoc-color.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-color) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-color.svg)](https://travis-ci.org/npmdoc/node-npmdoc-color)",
+    "description": "#### basic api documentation for  [color (v1.0.3)](https://github.com/qix-/color#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-color.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-color) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-color.svg)](https://travis-ci.org/npmdoc/node-npmdoc-color)",
     "devDependencies": {
         "color": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",

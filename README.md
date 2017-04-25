@@ -1,4 +1,7 @@
-# api documentation for  [color (v1.0.3)](https://github.com/qix-/color#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-color.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-color) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-color.svg)](https://travis-ci.org/npmdoc/node-npmdoc-color)
+# npmdoc-color
+
+#### basic api documentation for  [color (v1.0.3)](https://github.com/qix-/color#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-color.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-color) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-color.svg)](https://travis-ci.org/npmdoc/node-npmdoc-color)
+
 #### Color conversion and manipulation with CSS string support
 
 [![NPM](https://nodei.co/npm/color.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/color)
@@ -80,7 +83,8 @@
             "no-cond-assign": 0,
             "new-cap": 0
         }
-    }
+    },
+    "bin": {}
 }
 ```
 
